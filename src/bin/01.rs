@@ -44,7 +44,6 @@ pub fn part_two(input: &str) -> Option<u32> {
         total += l * *qty as u32;
     }
 
-    dbg!(total);
     Some(total)
 }
 
